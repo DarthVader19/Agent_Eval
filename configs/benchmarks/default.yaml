@@ -1,0 +1,5 @@
+version: v1.0
+custom_path: benchmarks/custom_tasks.jsonl
+gaia_style_path: benchmarks/gaia_style_tasks.jsonl
+corpus_path: benchmarks/corpus/documents.jsonl
+search_snapshot: benchmarks/corpus/search_snapshots.json

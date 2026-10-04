@@ -1,0 +1,5 @@
+temperature: 0.0
+max_output_tokens: 512
+max_steps: 10
+max_tokens: 6000
+max_seconds: 120

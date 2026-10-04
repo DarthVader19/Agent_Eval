@@ -1,0 +1,35 @@
+# pyproject.toml
+[project]
+name = "agent-eval-framework"
+version = "0.1.0"
+description = "Agent Evaluation & Benchmarking Framework"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langgraph==1.2.10",
+    "numpy==2.2.6",
+    "openai==2.53.0",
+    "PyYAML==6.0.3",
+    "python-dotenv==1.2.2",
+]
+
+[project.optional-dependencies]
+frameworks = ["crewai==1.15.10", "autogen-agentchat==0.7.5", "autogen-ext[openai]==0.7.5"]
+dev = ["pytest==9.1.1"]
+
+[project.scripts]
+agent-eval = "run_eval:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["run_eval"]
+
+[tool.setuptools.packages.find]
+include = ["agents*", "analysis*", "benchmarks*", "frameworks*", "harness*", "tools*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

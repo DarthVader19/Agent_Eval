@@ -1,0 +1,6 @@
+tool_mapping:
+  calculator: shared calculator
+  python: shared restricted Python subprocess
+  search: shared cached snapshot search
+  retrieve: shared local corpus retriever
+worker_count: 1

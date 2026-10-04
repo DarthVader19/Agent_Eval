@@ -1,0 +1,45 @@
+{
+  "version": "v1.0",
+  "suites": {
+    "custom_tasks.jsonl": {
+      "count": 130,
+      "sha256": "f2d11d15fed203fdcb108d82814e3a15fb1a0bdc94fdc9943cd1b16faf93c573",
+      "validation": {
+        "valid": true,
+        "count": 130,
+        "fault_cases": 25,
+        "test_fraction": 0.2,
+        "category_counts": {
+          "math": 30,
+          "retrieval": 20,
+          "code_execution": 15,
+          "web_search": 10,
+          "multi_hop_reasoning": 10,
+          "adversarial": 10,
+          "ambiguous_instructions": 10,
+          "fault_injection": 25
+        },
+        "errors": []
+      }
+    },
+    "gaia_style_tasks.jsonl": {
+      "count": 40,
+      "sha256": "aec00113a55db385d71c7e9734582e98ef35bd439af4a34e1b8e3a4e19ec9df6",
+      "validation": {
+        "valid": true,
+        "count": 40,
+        "fault_cases": 0,
+        "test_fraction": 0.2,
+        "category_counts": {
+          "retrieval": 10,
+          "multi_hop_reasoning": 30
+        },
+        "errors": []
+      }
+    }
+  },
+  "corpus": {
+    "corpus/documents.jsonl": "3e90dc4be56f23216f23dd12004bd52d2cb53bc00d3e13c162a88224d000abe0",
+    "corpus/search_snapshots.json": "d2051a4081b5918f29eadca82304bd5e8aa12724c27d3f5241189745ee540044"
+  }
+}

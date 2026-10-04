@@ -1,0 +1,6142 @@
+[
+  {
+    "agent_type": "react",
+    "agent_config": {
+      "type": "react",
+      "max_steps": 10,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "tool_000",
+    "task_category": "tool_use",
+    "task_difficulty": "easy",
+    "trace": {
+      "agent_type": "ReAct",
+      "task_id": "tool_000",
+      "final_answer": "No answer found",
+      "success": false,
+      "total_tokens": 109.2,
+      "total_time": 0.00011467933654785156,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 1,
+      "steps": [
+        {
+          "step_id": "reason_0",
+          "step_type": "reason",
+          "input_tokens": 96.2,
+          "output_tokens": 13.0,
+          "duration": 0.1,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "expected_output_here",
+      "actual": "no answer found"
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 0.00011467933654785156,
+      "avg_step_latency": 0.00011467933654785156,
+      "total_tokens": 109.2,
+      "num_steps": 1,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 0.00016379356384277344,
+    "timestamp": "2026-08-12T22:26:24.210383"
+  },
+  {
+    "agent_type": "react",
+    "agent_config": {
+      "type": "react",
+      "max_steps": 10,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "tool_001",
+    "task_category": "tool_use",
+    "task_difficulty": "easy",
+    "trace": {
+      "agent_type": "ReAct",
+      "task_id": "tool_001",
+      "final_answer": "No answer found",
+      "success": false,
+      "total_tokens": 109.2,
+      "total_time": 5.078315734863281e-05,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 1,
+      "steps": [
+        {
+          "step_id": "reason_0",
+          "step_type": "reason",
+          "input_tokens": 96.2,
+          "output_tokens": 13.0,
+          "duration": 0.1,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "expected_output_here",
+      "actual": "no answer found"
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 5.078315734863281e-05,
+      "avg_step_latency": 5.078315734863281e-05,
+      "total_tokens": 109.2,
+      "num_steps": 1,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 7.033348083496094e-05,
+    "timestamp": "2026-08-12T22:26:24.210483"
+  },
+  {
+    "agent_type": "react",
+    "agent_config": {
+      "type": "react",
+      "max_steps": 10,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "tool_002",
+    "task_category": "tool_use",
+    "task_difficulty": "easy",
+    "trace": {
+      "agent_type": "ReAct",
+      "task_id": "tool_002",
+      "final_answer": "No answer found",
+      "success": false,
+      "total_tokens": 109.2,
+      "total_time": 3.6716461181640625e-05,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 1,
+      "steps": [
+        {
+          "step_id": "reason_0",
+          "step_type": "reason",
+          "input_tokens": 96.2,
+          "output_tokens": 13.0,
+          "duration": 0.1,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "expected_output_here",
+      "actual": "no answer found"
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 3.6716461181640625e-05,
+      "avg_step_latency": 3.6716461181640625e-05,
+      "total_tokens": 109.2,
+      "num_steps": 1,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 4.6253204345703125e-05,
+    "timestamp": "2026-08-12T22:26:24.210536"
+  },
+  {
+    "agent_type": "react",
+    "agent_config": {
+      "type": "react",
+      "max_steps": 10,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "tool_003",
+    "task_category": "tool_use",
+    "task_difficulty": "easy",
+    "trace": {
+      "agent_type": "ReAct",
+      "task_id": "tool_003",
+      "final_answer": "No answer found",
+      "success": false,
+      "total_tokens": 109.2,
+      "total_time": 1.8358230590820312e-05,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 1,
+      "steps": [
+        {
+          "step_id": "reason_0",
+          "step_type": "reason",
+          "input_tokens": 96.2,
+          "output_tokens": 13.0,
+          "duration": 0.1,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "expected_output_here",
+      "actual": "no answer found"
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 1.8358230590820312e-05,
+      "avg_step_latency": 1.8358230590820312e-05,
+      "total_tokens": 109.2,
+      "num_steps": 1,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 0.00015354156494140625,
+    "timestamp": "2026-08-12T22:26:24.210696"
+  },
+  {
+    "agent_type": "react",
+    "agent_config": {
+      "type": "react",
+      "max_steps": 10,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "tool_004",
+    "task_category": "tool_use",
+    "task_difficulty": "easy",
+    "trace": {
+      "agent_type": "ReAct",
+      "task_id": "tool_004",
+      "final_answer": "No answer found",
+      "success": false,
+      "total_tokens": 109.2,
+      "total_time": 2.3603439331054688e-05,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 1,
+      "steps": [
+        {
+          "step_id": "reason_0",
+          "step_type": "reason",
+          "input_tokens": 96.2,
+          "output_tokens": 13.0,
+          "duration": 0.1,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "expected_output_here",
+      "actual": "no answer found"
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 2.3603439331054688e-05,
+      "avg_step_latency": 2.3603439331054688e-05,
+      "total_tokens": 109.2,
+      "num_steps": 1,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 3.2901763916015625e-05,
+    "timestamp": "2026-08-12T22:26:24.210737"
+  },
+  {
+    "agent_type": "react",
+    "agent_config": {
+      "type": "react",
+      "max_steps": 10,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "tool_005",
+    "task_category": "tool_use",
+    "task_difficulty": "easy",
+    "trace": {
+      "agent_type": "ReAct",
+      "task_id": "tool_005",
+      "final_answer": "No answer found",
+      "success": false,
+      "total_tokens": 109.2,
+      "total_time": 1.5735626220703125e-05,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 1,
+      "steps": [
+        {
+          "step_id": "reason_0",
+          "step_type": "reason",
+          "input_tokens": 96.2,
+          "output_tokens": 13.0,
+          "duration": 0.1,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "expected_output_here",
+      "actual": "no answer found"
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 1.5735626220703125e-05,
+      "avg_step_latency": 1.5735626220703125e-05,
+      "total_tokens": 109.2,
+      "num_steps": 1,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 2.1696090698242188e-05,
+    "timestamp": "2026-08-12T22:26:24.210763"
+  },
+  {
+    "agent_type": "react",
+    "agent_config": {
+      "type": "react",
+      "max_steps": 10,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "tool_006",
+    "task_category": "tool_use",
+    "task_difficulty": "easy",
+    "trace": {
+      "agent_type": "ReAct",
+      "task_id": "tool_006",
+      "final_answer": "No answer found",
+      "success": false,
+      "total_tokens": 109.2,
+      "total_time": 7.700920104980469e-05,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 1,
+      "steps": [
+        {
+          "step_id": "reason_0",
+          "step_type": "reason",
+          "input_tokens": 96.2,
+          "output_tokens": 13.0,
+          "duration": 0.1,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "expected_output_here",
+      "actual": "no answer found"
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 7.700920104980469e-05,
+      "avg_step_latency": 7.700920104980469e-05,
+      "total_tokens": 109.2,
+      "num_steps": 1,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 0.00010275840759277344,
+    "timestamp": "2026-08-12T22:26:24.210875"
+  },
+  {
+    "agent_type": "react",
+    "agent_config": {
+      "type": "react",
+      "max_steps": 10,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "tool_007",
+    "task_category": "tool_use",
+    "task_difficulty": "easy",
+    "trace": {
+      "agent_type": "ReAct",
+      "task_id": "tool_007",
+      "final_answer": "No answer found",
+      "success": false,
+      "total_tokens": 109.2,
+      "total_time": 3.24249267578125e-05,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 1,
+      "steps": [
+        {
+          "step_id": "reason_0",
+          "step_type": "reason",
+          "input_tokens": 96.2,
+          "output_tokens": 13.0,
+          "duration": 0.1,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "expected_output_here",
+      "actual": "no answer found"
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 3.24249267578125e-05,
+      "avg_step_latency": 3.24249267578125e-05,
+      "total_tokens": 109.2,
+      "num_steps": 1,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 4.124641418457031e-05,
+    "timestamp": "2026-08-12T22:26:24.210930"
+  },
+  {
+    "agent_type": "react",
+    "agent_config": {
+      "type": "react",
+      "max_steps": 10,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "tool_008",
+    "task_category": "tool_use",
+    "task_difficulty": "medium",
+    "trace": {
+      "agent_type": "ReAct",
+      "task_id": "tool_008",
+      "final_answer": "No answer found",
+      "success": false,
+      "total_tokens": 109.2,
+      "total_time": 1.5497207641601562e-05,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 1,
+      "steps": [
+        {
+          "step_id": "reason_0",
+          "step_type": "reason",
+          "input_tokens": 96.2,
+          "output_tokens": 13.0,
+          "duration": 0.1,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "expected_output_here",
+      "actual": "no answer found"
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 1.5497207641601562e-05,
+      "avg_step_latency": 1.5497207641601562e-05,
+      "total_tokens": 109.2,
+      "num_steps": 1,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 2.2649765014648438e-05,
+    "timestamp": "2026-08-12T22:26:24.210957"
+  },
+  {
+    "agent_type": "react",
+    "agent_config": {
+      "type": "react",
+      "max_steps": 10,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "tool_009",
+    "task_category": "tool_use",
+    "task_difficulty": "medium",
+    "trace": {
+      "agent_type": "ReAct",
+      "task_id": "tool_009",
+      "final_answer": "No answer found",
+      "success": false,
+      "total_tokens": 109.2,
+      "total_time": 1.2874603271484375e-05,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 1,
+      "steps": [
+        {
+          "step_id": "reason_0",
+          "step_type": "reason",
+          "input_tokens": 96.2,
+          "output_tokens": 13.0,
+          "duration": 0.1,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "expected_output_here",
+      "actual": "no answer found"
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 1.2874603271484375e-05,
+      "avg_step_latency": 1.2874603271484375e-05,
+      "total_tokens": 109.2,
+      "num_steps": 1,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 1.8835067749023438e-05,
+    "timestamp": "2026-08-12T22:26:24.210979"
+  },
+  {
+    "agent_type": "react",
+    "agent_config": {
+      "type": "react",
+      "max_steps": 10,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "tool_010",
+    "task_category": "tool_use",
+    "task_difficulty": "medium",
+    "trace": {
+      "agent_type": "ReAct",
+      "task_id": "tool_010",
+      "final_answer": "No answer found",
+      "success": false,
+      "total_tokens": 109.2,
+      "total_time": 1.1444091796875e-05,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 1,
+      "steps": [
+        {
+          "step_id": "reason_0",
+          "step_type": "reason",
+          "input_tokens": 96.2,
+          "output_tokens": 13.0,
+          "duration": 0.1,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "expected_output_here",
+      "actual": "no answer found"
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 1.1444091796875e-05,
+      "avg_step_latency": 1.1444091796875e-05,
+      "total_tokens": 109.2,
+      "num_steps": 1,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 1.5497207641601562e-05,
+    "timestamp": "2026-08-12T22:26:24.210997"
+  },
+  {
+    "agent_type": "react",
+    "agent_config": {
+      "type": "react",
+      "max_steps": 10,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "tool_011",
+    "task_category": "tool_use",
+    "task_difficulty": "medium",
+    "trace": {
+      "agent_type": "ReAct",
+      "task_id": "tool_011",
+      "final_answer": "No answer found",
+      "success": false,
+      "total_tokens": 109.2,
+      "total_time": 1.33514404296875e-05,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 1,
+      "steps": [
+        {
+          "step_id": "reason_0",
+          "step_type": "reason",
+          "input_tokens": 96.2,
+          "output_tokens": 13.0,
+          "duration": 0.1,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "expected_output_here",
+      "actual": "no answer found"
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 1.33514404296875e-05,
+      "avg_step_latency": 1.33514404296875e-05,
+      "total_tokens": 109.2,
+      "num_steps": 1,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 1.8596649169921875e-05,
+    "timestamp": "2026-08-12T22:26:24.211019"
+  },
+  {
+    "agent_type": "react",
+    "agent_config": {
+      "type": "react",
+      "max_steps": 10,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "tool_012",
+    "task_category": "tool_use",
+    "task_difficulty": "medium",
+    "trace": {
+      "agent_type": "ReAct",
+      "task_id": "tool_012",
+      "final_answer": "No answer found",
+      "success": false,
+      "total_tokens": 109.2,
+      "total_time": 8.58306884765625e-06,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 1,
+      "steps": [
+        {
+          "step_id": "reason_0",
+          "step_type": "reason",
+          "input_tokens": 96.2,
+          "output_tokens": 13.0,
+          "duration": 0.1,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "expected_output_here",
+      "actual": "no answer found"
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 8.58306884765625e-06,
+      "avg_step_latency": 8.58306884765625e-06,
+      "total_tokens": 109.2,
+      "num_steps": 1,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 1.239776611328125e-05,
+    "timestamp": "2026-08-12T22:26:24.211034"
+  },
+  {
+    "agent_type": "react",
+    "agent_config": {
+      "type": "react",
+      "max_steps": 10,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "tool_013",
+    "task_category": "tool_use",
+    "task_difficulty": "medium",
+    "trace": {
+      "agent_type": "ReAct",
+      "task_id": "tool_013",
+      "final_answer": "No answer found",
+      "success": false,
+      "total_tokens": 109.2,
+      "total_time": 1.2874603271484375e-05,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 1,
+      "steps": [
+        {
+          "step_id": "reason_0",
+          "step_type": "reason",
+          "input_tokens": 96.2,
+          "output_tokens": 13.0,
+          "duration": 0.1,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "expected_output_here",
+      "actual": "no answer found"
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 1.2874603271484375e-05,
+      "avg_step_latency": 1.2874603271484375e-05,
+      "total_tokens": 109.2,
+      "num_steps": 1,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 1.71661376953125e-05,
+    "timestamp": "2026-08-12T22:26:24.211054"
+  },
+  {
+    "agent_type": "react",
+    "agent_config": {
+      "type": "react",
+      "max_steps": 10,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "tool_014",
+    "task_category": "tool_use",
+    "task_difficulty": "medium",
+    "trace": {
+      "agent_type": "ReAct",
+      "task_id": "tool_014",
+      "final_answer": "No answer found",
+      "success": false,
+      "total_tokens": 109.2,
+      "total_time": 8.821487426757812e-06,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 1,
+      "steps": [
+        {
+          "step_id": "reason_0",
+          "step_type": "reason",
+          "input_tokens": 96.2,
+          "output_tokens": 13.0,
+          "duration": 0.1,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "expected_output_here",
+      "actual": "no answer found"
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 8.821487426757812e-06,
+      "avg_step_latency": 8.821487426757812e-06,
+      "total_tokens": 109.2,
+      "num_steps": 1,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 1.52587890625e-05,
+    "timestamp": "2026-08-12T22:26:24.211072"
+  },
+  {
+    "agent_type": "react",
+    "agent_config": {
+      "type": "react",
+      "max_steps": 10,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "reason_000",
+    "task_category": "multi_hop_reasoning",
+    "task_difficulty": "medium",
+    "trace": {
+      "agent_type": "ReAct",
+      "task_id": "reason_000",
+      "final_answer": "No answer found",
+      "success": false,
+      "total_tokens": 100.10000000000001,
+      "total_time": 1.2159347534179688e-05,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 1,
+      "steps": [
+        {
+          "step_id": "reason_0",
+          "step_type": "reason",
+          "input_tokens": 88.4,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.1,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "logical_conclusion",
+      "actual": "no answer found"
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 1.2159347534179688e-05,
+      "avg_step_latency": 1.2159347534179688e-05,
+      "total_tokens": 100.10000000000001,
+      "num_steps": 1,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 1.811981201171875e-05,
+    "timestamp": "2026-08-12T22:26:24.211092"
+  },
+  {
+    "agent_type": "react",
+    "agent_config": {
+      "type": "react",
+      "max_steps": 10,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "reason_001",
+    "task_category": "multi_hop_reasoning",
+    "task_difficulty": "medium",
+    "trace": {
+      "agent_type": "ReAct",
+      "task_id": "reason_001",
+      "final_answer": "No answer found",
+      "success": false,
+      "total_tokens": 100.10000000000001,
+      "total_time": 1.4066696166992188e-05,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 1,
+      "steps": [
+        {
+          "step_id": "reason_0",
+          "step_type": "reason",
+          "input_tokens": 88.4,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.1,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "logical_conclusion",
+      "actual": "no answer found"
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 1.4066696166992188e-05,
+      "avg_step_latency": 1.4066696166992188e-05,
+      "total_tokens": 100.10000000000001,
+      "num_steps": 1,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 1.9788742065429688e-05,
+    "timestamp": "2026-08-12T22:26:24.211114"
+  },
+  {
+    "agent_type": "react",
+    "agent_config": {
+      "type": "react",
+      "max_steps": 10,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "reason_002",
+    "task_category": "multi_hop_reasoning",
+    "task_difficulty": "medium",
+    "trace": {
+      "agent_type": "ReAct",
+      "task_id": "reason_002",
+      "final_answer": "No answer found",
+      "success": false,
+      "total_tokens": 100.10000000000001,
+      "total_time": 1.2636184692382812e-05,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 1,
+      "steps": [
+        {
+          "step_id": "reason_0",
+          "step_type": "reason",
+          "input_tokens": 88.4,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.1,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "logical_conclusion",
+      "actual": "no answer found"
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 1.2636184692382812e-05,
+      "avg_step_latency": 1.2636184692382812e-05,
+      "total_tokens": 100.10000000000001,
+      "num_steps": 1,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 1.7881393432617188e-05,
+    "timestamp": "2026-08-12T22:26:24.211135"
+  },
+  {
+    "agent_type": "react",
+    "agent_config": {
+      "type": "react",
+      "max_steps": 10,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "reason_003",
+    "task_category": "multi_hop_reasoning",
+    "task_difficulty": "medium",
+    "trace": {
+      "agent_type": "ReAct",
+      "task_id": "reason_003",
+      "final_answer": "No answer found",
+      "success": false,
+      "total_tokens": 100.10000000000001,
+      "total_time": 1.1682510375976562e-05,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 1,
+      "steps": [
+        {
+          "step_id": "reason_0",
+          "step_type": "reason",
+          "input_tokens": 88.4,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.1,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "logical_conclusion",
+      "actual": "no answer found"
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 1.1682510375976562e-05,
+      "avg_step_latency": 1.1682510375976562e-05,
+      "total_tokens": 100.10000000000001,
+      "num_steps": 1,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 2.09808349609375e-05,
+    "timestamp": "2026-08-12T22:26:24.211159"
+  },
+  {
+    "agent_type": "react",
+    "agent_config": {
+      "type": "react",
+      "max_steps": 10,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "reason_004",
+    "task_category": "multi_hop_reasoning",
+    "task_difficulty": "medium",
+    "trace": {
+      "agent_type": "ReAct",
+      "task_id": "reason_004",
+      "final_answer": "No answer found",
+      "success": false,
+      "total_tokens": 100.10000000000001,
+      "total_time": 5.4836273193359375e-05,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 1,
+      "steps": [
+        {
+          "step_id": "reason_0",
+          "step_type": "reason",
+          "input_tokens": 88.4,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.1,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "logical_conclusion",
+      "actual": "no answer found"
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 5.4836273193359375e-05,
+      "avg_step_latency": 5.4836273193359375e-05,
+      "total_tokens": 100.10000000000001,
+      "num_steps": 1,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 6.699562072753906e-05,
+    "timestamp": "2026-08-12T22:26:24.211231"
+  },
+  {
+    "agent_type": "plan_execute",
+    "agent_config": {
+      "type": "plan_execute",
+      "max_plan_steps": 20,
+      "replan_threshold": 0.5,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "tool_000",
+    "task_category": "tool_use",
+    "task_difficulty": "easy",
+    "trace": {
+      "agent_type": "PlanExecute",
+      "task_id": "tool_000",
+      "final_answer": "Mock response for: \n        Task: Using the calculator, find the answ...",
+      "success": false,
+      "total_tokens": 377.0,
+      "total_time": 0.0002315044403076172,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 5,
+      "steps": [
+        {
+          "step_id": "plan_creation",
+          "step_type": "plan",
+          "input_tokens": 88.4,
+          "output_tokens": 40.300000000000004,
+          "duration": 0.5,
+          "error": null
+        },
+        {
+          "step_id": "execute_1",
+          "step_type": "execute",
+          "input_tokens": 49.4,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "execute_2",
+          "step_type": "execute",
+          "input_tokens": 54.6,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "execute_3",
+          "step_type": "execute",
+          "input_tokens": 61.1,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "synthesis",
+          "step_type": "synthesize",
+          "input_tokens": 50.7,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "expected_output_here",
+      "actual": "mock response for: \n        task: using the calculator, find the answ..."
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 0.0002315044403076172,
+      "avg_step_latency": 4.6300888061523435e-05,
+      "total_tokens": 377.0,
+      "num_steps": 5,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 0.00026416778564453125,
+    "timestamp": "2026-08-12T22:26:24.213622"
+  },
+  {
+    "agent_type": "plan_execute",
+    "agent_config": {
+      "type": "plan_execute",
+      "max_plan_steps": 20,
+      "replan_threshold": 0.5,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "tool_001",
+    "task_category": "tool_use",
+    "task_difficulty": "easy",
+    "trace": {
+      "agent_type": "PlanExecute",
+      "task_id": "tool_001",
+      "final_answer": "Mock response for: \n        Task: Using the weather_api, find the ans...",
+      "success": false,
+      "total_tokens": 377.0,
+      "total_time": 0.00011086463928222656,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 5,
+      "steps": [
+        {
+          "step_id": "plan_creation",
+          "step_type": "plan",
+          "input_tokens": 88.4,
+          "output_tokens": 40.300000000000004,
+          "duration": 0.5,
+          "error": null
+        },
+        {
+          "step_id": "execute_1",
+          "step_type": "execute",
+          "input_tokens": 49.4,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "execute_2",
+          "step_type": "execute",
+          "input_tokens": 54.6,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "execute_3",
+          "step_type": "execute",
+          "input_tokens": 61.1,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "synthesis",
+          "step_type": "synthesize",
+          "input_tokens": 50.7,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "expected_output_here",
+      "actual": "mock response for: \n        task: using the weather_api, find the ans..."
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 0.00011086463928222656,
+      "avg_step_latency": 2.2172927856445312e-05,
+      "total_tokens": 377.0,
+      "num_steps": 5,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 0.00012135505676269531,
+    "timestamp": "2026-08-12T22:26:24.213767"
+  },
+  {
+    "agent_type": "plan_execute",
+    "agent_config": {
+      "type": "plan_execute",
+      "max_plan_steps": 20,
+      "replan_threshold": 0.5,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "tool_002",
+    "task_category": "tool_use",
+    "task_difficulty": "easy",
+    "trace": {
+      "agent_type": "PlanExecute",
+      "task_id": "tool_002",
+      "final_answer": "Mock response for: \n        Task: Using the database_query, find the ...",
+      "success": false,
+      "total_tokens": 377.0,
+      "total_time": 8.940696716308594e-05,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 5,
+      "steps": [
+        {
+          "step_id": "plan_creation",
+          "step_type": "plan",
+          "input_tokens": 88.4,
+          "output_tokens": 40.300000000000004,
+          "duration": 0.5,
+          "error": null
+        },
+        {
+          "step_id": "execute_1",
+          "step_type": "execute",
+          "input_tokens": 49.4,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "execute_2",
+          "step_type": "execute",
+          "input_tokens": 54.6,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "execute_3",
+          "step_type": "execute",
+          "input_tokens": 61.1,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "synthesis",
+          "step_type": "synthesize",
+          "input_tokens": 50.7,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "expected_output_here",
+      "actual": "mock response for: \n        task: using the database_query, find the ..."
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 8.940696716308594e-05,
+      "avg_step_latency": 1.7881393432617188e-05,
+      "total_tokens": 377.0,
+      "num_steps": 5,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 9.751319885253906e-05,
+    "timestamp": "2026-08-12T22:26:24.213870"
+  },
+  {
+    "agent_type": "plan_execute",
+    "agent_config": {
+      "type": "plan_execute",
+      "max_plan_steps": 20,
+      "replan_threshold": 0.5,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "tool_003",
+    "task_category": "tool_use",
+    "task_difficulty": "easy",
+    "trace": {
+      "agent_type": "PlanExecute",
+      "task_id": "tool_003",
+      "final_answer": "Mock response for: \n        Task: Using the file_reader, find the ans...",
+      "success": false,
+      "total_tokens": 377.0,
+      "total_time": 7.748603820800781e-05,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 5,
+      "steps": [
+        {
+          "step_id": "plan_creation",
+          "step_type": "plan",
+          "input_tokens": 88.4,
+          "output_tokens": 40.300000000000004,
+          "duration": 0.5,
+          "error": null
+        },
+        {
+          "step_id": "execute_1",
+          "step_type": "execute",
+          "input_tokens": 49.4,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "execute_2",
+          "step_type": "execute",
+          "input_tokens": 54.6,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "execute_3",
+          "step_type": "execute",
+          "input_tokens": 61.1,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "synthesis",
+          "step_type": "synthesize",
+          "input_tokens": 50.7,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "expected_output_here",
+      "actual": "mock response for: \n        task: using the file_reader, find the ans..."
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 7.748603820800781e-05,
+      "avg_step_latency": 1.5497207641601562e-05,
+      "total_tokens": 377.0,
+      "num_steps": 5,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 8.463859558105469e-05,
+    "timestamp": "2026-08-12T22:26:24.213962"
+  },
+  {
+    "agent_type": "plan_execute",
+    "agent_config": {
+      "type": "plan_execute",
+      "max_plan_steps": 20,
+      "replan_threshold": 0.5,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "tool_004",
+    "task_category": "tool_use",
+    "task_difficulty": "easy",
+    "trace": {
+      "agent_type": "PlanExecute",
+      "task_id": "tool_004",
+      "final_answer": "Mock response for: \n        Task: Using the api_caller, find the answ...",
+      "success": false,
+      "total_tokens": 377.0,
+      "total_time": 7.033348083496094e-05,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 5,
+      "steps": [
+        {
+          "step_id": "plan_creation",
+          "step_type": "plan",
+          "input_tokens": 88.4,
+          "output_tokens": 40.300000000000004,
+          "duration": 0.5,
+          "error": null
+        },
+        {
+          "step_id": "execute_1",
+          "step_type": "execute",
+          "input_tokens": 49.4,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "execute_2",
+          "step_type": "execute",
+          "input_tokens": 54.6,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "execute_3",
+          "step_type": "execute",
+          "input_tokens": 61.1,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "synthesis",
+          "step_type": "synthesize",
+          "input_tokens": 50.7,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "expected_output_here",
+      "actual": "mock response for: \n        task: using the api_caller, find the answ..."
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 7.033348083496094e-05,
+      "avg_step_latency": 1.4066696166992188e-05,
+      "total_tokens": 377.0,
+      "num_steps": 5,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 8.153915405273438e-05,
+    "timestamp": "2026-08-12T22:26:24.214048"
+  },
+  {
+    "agent_type": "plan_execute",
+    "agent_config": {
+      "type": "plan_execute",
+      "max_plan_steps": 20,
+      "replan_threshold": 0.5,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "tool_005",
+    "task_category": "tool_use",
+    "task_difficulty": "easy",
+    "trace": {
+      "agent_type": "PlanExecute",
+      "task_id": "tool_005",
+      "final_answer": "Mock response for: \n        Task: Using the calculator, find the answ...",
+      "success": false,
+      "total_tokens": 377.0,
+      "total_time": 7.271766662597656e-05,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 5,
+      "steps": [
+        {
+          "step_id": "plan_creation",
+          "step_type": "plan",
+          "input_tokens": 88.4,
+          "output_tokens": 40.300000000000004,
+          "duration": 0.5,
+          "error": null
+        },
+        {
+          "step_id": "execute_1",
+          "step_type": "execute",
+          "input_tokens": 49.4,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "execute_2",
+          "step_type": "execute",
+          "input_tokens": 54.6,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "execute_3",
+          "step_type": "execute",
+          "input_tokens": 61.1,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "synthesis",
+          "step_type": "synthesize",
+          "input_tokens": 50.7,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "expected_output_here",
+      "actual": "mock response for: \n        task: using the calculator, find the answ..."
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 7.271766662597656e-05,
+      "avg_step_latency": 1.4543533325195312e-05,
+      "total_tokens": 377.0,
+      "num_steps": 5,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 8.20159912109375e-05,
+    "timestamp": "2026-08-12T22:26:24.214135"
+  },
+  {
+    "agent_type": "plan_execute",
+    "agent_config": {
+      "type": "plan_execute",
+      "max_plan_steps": 20,
+      "replan_threshold": 0.5,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "tool_006",
+    "task_category": "tool_use",
+    "task_difficulty": "easy",
+    "trace": {
+      "agent_type": "PlanExecute",
+      "task_id": "tool_006",
+      "final_answer": "Mock response for: \n        Task: Using the weather_api, find the ans...",
+      "success": false,
+      "total_tokens": 377.0,
+      "total_time": 7.009506225585938e-05,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 5,
+      "steps": [
+        {
+          "step_id": "plan_creation",
+          "step_type": "plan",
+          "input_tokens": 88.4,
+          "output_tokens": 40.300000000000004,
+          "duration": 0.5,
+          "error": null
+        },
+        {
+          "step_id": "execute_1",
+          "step_type": "execute",
+          "input_tokens": 49.4,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "execute_2",
+          "step_type": "execute",
+          "input_tokens": 54.6,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "execute_3",
+          "step_type": "execute",
+          "input_tokens": 61.1,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "synthesis",
+          "step_type": "synthesize",
+          "input_tokens": 50.7,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "expected_output_here",
+      "actual": "mock response for: \n        task: using the weather_api, find the ans..."
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 7.009506225585938e-05,
+      "avg_step_latency": 1.4019012451171874e-05,
+      "total_tokens": 377.0,
+      "num_steps": 5,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 7.867813110351562e-05,
+    "timestamp": "2026-08-12T22:26:24.214219"
+  },
+  {
+    "agent_type": "plan_execute",
+    "agent_config": {
+      "type": "plan_execute",
+      "max_plan_steps": 20,
+      "replan_threshold": 0.5,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "tool_007",
+    "task_category": "tool_use",
+    "task_difficulty": "easy",
+    "trace": {
+      "agent_type": "PlanExecute",
+      "task_id": "tool_007",
+      "final_answer": "Mock response for: \n        Task: Using the database_query, find the ...",
+      "success": false,
+      "total_tokens": 377.0,
+      "total_time": 7.176399230957031e-05,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 5,
+      "steps": [
+        {
+          "step_id": "plan_creation",
+          "step_type": "plan",
+          "input_tokens": 88.4,
+          "output_tokens": 40.300000000000004,
+          "duration": 0.5,
+          "error": null
+        },
+        {
+          "step_id": "execute_1",
+          "step_type": "execute",
+          "input_tokens": 49.4,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "execute_2",
+          "step_type": "execute",
+          "input_tokens": 54.6,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "execute_3",
+          "step_type": "execute",
+          "input_tokens": 61.1,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "synthesis",
+          "step_type": "synthesize",
+          "input_tokens": 50.7,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "expected_output_here",
+      "actual": "mock response for: \n        task: using the database_query, find the ..."
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 7.176399230957031e-05,
+      "avg_step_latency": 1.4352798461914063e-05,
+      "total_tokens": 377.0,
+      "num_steps": 5,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 8.058547973632812e-05,
+    "timestamp": "2026-08-12T22:26:24.214305"
+  },
+  {
+    "agent_type": "plan_execute",
+    "agent_config": {
+      "type": "plan_execute",
+      "max_plan_steps": 20,
+      "replan_threshold": 0.5,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "tool_008",
+    "task_category": "tool_use",
+    "task_difficulty": "medium",
+    "trace": {
+      "agent_type": "PlanExecute",
+      "task_id": "tool_008",
+      "final_answer": "Mock response for: \n        Task: Using the file_reader, find the ans...",
+      "success": false,
+      "total_tokens": 377.0,
+      "total_time": 5.936622619628906e-05,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 5,
+      "steps": [
+        {
+          "step_id": "plan_creation",
+          "step_type": "plan",
+          "input_tokens": 88.4,
+          "output_tokens": 40.300000000000004,
+          "duration": 0.5,
+          "error": null
+        },
+        {
+          "step_id": "execute_1",
+          "step_type": "execute",
+          "input_tokens": 49.4,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "execute_2",
+          "step_type": "execute",
+          "input_tokens": 54.6,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "execute_3",
+          "step_type": "execute",
+          "input_tokens": 61.1,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "synthesis",
+          "step_type": "synthesize",
+          "input_tokens": 50.7,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "expected_output_here",
+      "actual": "mock response for: \n        task: using the file_reader, find the ans..."
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 5.936622619628906e-05,
+      "avg_step_latency": 1.1873245239257812e-05,
+      "total_tokens": 377.0,
+      "num_steps": 5,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 6.556510925292969e-05,
+    "timestamp": "2026-08-12T22:26:24.214375"
+  },
+  {
+    "agent_type": "plan_execute",
+    "agent_config": {
+      "type": "plan_execute",
+      "max_plan_steps": 20,
+      "replan_threshold": 0.5,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "tool_009",
+    "task_category": "tool_use",
+    "task_difficulty": "medium",
+    "trace": {
+      "agent_type": "PlanExecute",
+      "task_id": "tool_009",
+      "final_answer": "Mock response for: \n        Task: Using the api_caller, find the answ...",
+      "success": false,
+      "total_tokens": 377.0,
+      "total_time": 6.198883056640625e-05,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 5,
+      "steps": [
+        {
+          "step_id": "plan_creation",
+          "step_type": "plan",
+          "input_tokens": 88.4,
+          "output_tokens": 40.300000000000004,
+          "duration": 0.5,
+          "error": null
+        },
+        {
+          "step_id": "execute_1",
+          "step_type": "execute",
+          "input_tokens": 49.4,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "execute_2",
+          "step_type": "execute",
+          "input_tokens": 54.6,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "execute_3",
+          "step_type": "execute",
+          "input_tokens": 61.1,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "synthesis",
+          "step_type": "synthesize",
+          "input_tokens": 50.7,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "expected_output_here",
+      "actual": "mock response for: \n        task: using the api_caller, find the answ..."
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 6.198883056640625e-05,
+      "avg_step_latency": 1.239776611328125e-05,
+      "total_tokens": 377.0,
+      "num_steps": 5,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 6.866455078125e-05,
+    "timestamp": "2026-08-12T22:26:24.214448"
+  },
+  {
+    "agent_type": "plan_execute",
+    "agent_config": {
+      "type": "plan_execute",
+      "max_plan_steps": 20,
+      "replan_threshold": 0.5,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "tool_010",
+    "task_category": "tool_use",
+    "task_difficulty": "medium",
+    "trace": {
+      "agent_type": "PlanExecute",
+      "task_id": "tool_010",
+      "final_answer": "Mock response for: \n        Task: Using the calculator, find the answ...",
+      "success": false,
+      "total_tokens": 377.0,
+      "total_time": 6.0558319091796875e-05,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 5,
+      "steps": [
+        {
+          "step_id": "plan_creation",
+          "step_type": "plan",
+          "input_tokens": 88.4,
+          "output_tokens": 40.300000000000004,
+          "duration": 0.5,
+          "error": null
+        },
+        {
+          "step_id": "execute_1",
+          "step_type": "execute",
+          "input_tokens": 49.4,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "execute_2",
+          "step_type": "execute",
+          "input_tokens": 54.6,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "execute_3",
+          "step_type": "execute",
+          "input_tokens": 61.1,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "synthesis",
+          "step_type": "synthesize",
+          "input_tokens": 50.7,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "expected_output_here",
+      "actual": "mock response for: \n        task: using the calculator, find the answ..."
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 6.0558319091796875e-05,
+      "avg_step_latency": 1.2111663818359374e-05,
+      "total_tokens": 377.0,
+      "num_steps": 5,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 6.914138793945312e-05,
+    "timestamp": "2026-08-12T22:26:24.214522"
+  },
+  {
+    "agent_type": "plan_execute",
+    "agent_config": {
+      "type": "plan_execute",
+      "max_plan_steps": 20,
+      "replan_threshold": 0.5,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "tool_011",
+    "task_category": "tool_use",
+    "task_difficulty": "medium",
+    "trace": {
+      "agent_type": "PlanExecute",
+      "task_id": "tool_011",
+      "final_answer": "Mock response for: \n        Task: Using the weather_api, find the ans...",
+      "success": false,
+      "total_tokens": 377.0,
+      "total_time": 6.794929504394531e-05,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 5,
+      "steps": [
+        {
+          "step_id": "plan_creation",
+          "step_type": "plan",
+          "input_tokens": 88.4,
+          "output_tokens": 40.300000000000004,
+          "duration": 0.5,
+          "error": null
+        },
+        {
+          "step_id": "execute_1",
+          "step_type": "execute",
+          "input_tokens": 49.4,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "execute_2",
+          "step_type": "execute",
+          "input_tokens": 54.6,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "execute_3",
+          "step_type": "execute",
+          "input_tokens": 61.1,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "synthesis",
+          "step_type": "synthesize",
+          "input_tokens": 50.7,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "expected_output_here",
+      "actual": "mock response for: \n        task: using the weather_api, find the ans..."
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 6.794929504394531e-05,
+      "avg_step_latency": 1.3589859008789062e-05,
+      "total_tokens": 377.0,
+      "num_steps": 5,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 7.486343383789062e-05,
+    "timestamp": "2026-08-12T22:26:24.214601"
+  },
+  {
+    "agent_type": "plan_execute",
+    "agent_config": {
+      "type": "plan_execute",
+      "max_plan_steps": 20,
+      "replan_threshold": 0.5,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "tool_012",
+    "task_category": "tool_use",
+    "task_difficulty": "medium",
+    "trace": {
+      "agent_type": "PlanExecute",
+      "task_id": "tool_012",
+      "final_answer": "Mock response for: \n        Task: Using the database_query, find the ...",
+      "success": false,
+      "total_tokens": 377.0,
+      "total_time": 6.175041198730469e-05,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 5,
+      "steps": [
+        {
+          "step_id": "plan_creation",
+          "step_type": "plan",
+          "input_tokens": 88.4,
+          "output_tokens": 40.300000000000004,
+          "duration": 0.5,
+          "error": null
+        },
+        {
+          "step_id": "execute_1",
+          "step_type": "execute",
+          "input_tokens": 49.4,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "execute_2",
+          "step_type": "execute",
+          "input_tokens": 54.6,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "execute_3",
+          "step_type": "execute",
+          "input_tokens": 61.1,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "synthesis",
+          "step_type": "synthesize",
+          "input_tokens": 50.7,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "expected_output_here",
+      "actual": "mock response for: \n        task: using the database_query, find the ..."
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 6.175041198730469e-05,
+      "avg_step_latency": 1.2350082397460937e-05,
+      "total_tokens": 377.0,
+      "num_steps": 5,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 6.890296936035156e-05,
+    "timestamp": "2026-08-12T22:26:24.214673"
+  },
+  {
+    "agent_type": "plan_execute",
+    "agent_config": {
+      "type": "plan_execute",
+      "max_plan_steps": 20,
+      "replan_threshold": 0.5,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "tool_013",
+    "task_category": "tool_use",
+    "task_difficulty": "medium",
+    "trace": {
+      "agent_type": "PlanExecute",
+      "task_id": "tool_013",
+      "final_answer": "Mock response for: \n        Task: Using the file_reader, find the ans...",
+      "success": false,
+      "total_tokens": 377.0,
+      "total_time": 6.365776062011719e-05,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 5,
+      "steps": [
+        {
+          "step_id": "plan_creation",
+          "step_type": "plan",
+          "input_tokens": 88.4,
+          "output_tokens": 40.300000000000004,
+          "duration": 0.5,
+          "error": null
+        },
+        {
+          "step_id": "execute_1",
+          "step_type": "execute",
+          "input_tokens": 49.4,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "execute_2",
+          "step_type": "execute",
+          "input_tokens": 54.6,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "execute_3",
+          "step_type": "execute",
+          "input_tokens": 61.1,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "synthesis",
+          "step_type": "synthesize",
+          "input_tokens": 50.7,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "expected_output_here",
+      "actual": "mock response for: \n        task: using the file_reader, find the ans..."
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 6.365776062011719e-05,
+      "avg_step_latency": 1.2731552124023437e-05,
+      "total_tokens": 377.0,
+      "num_steps": 5,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 7.367134094238281e-05,
+    "timestamp": "2026-08-12T22:26:24.214752"
+  },
+  {
+    "agent_type": "plan_execute",
+    "agent_config": {
+      "type": "plan_execute",
+      "max_plan_steps": 20,
+      "replan_threshold": 0.5,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "tool_014",
+    "task_category": "tool_use",
+    "task_difficulty": "medium",
+    "trace": {
+      "agent_type": "PlanExecute",
+      "task_id": "tool_014",
+      "final_answer": "Mock response for: \n        Task: Using the api_caller, find the answ...",
+      "success": false,
+      "total_tokens": 377.0,
+      "total_time": 7.939338684082031e-05,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 5,
+      "steps": [
+        {
+          "step_id": "plan_creation",
+          "step_type": "plan",
+          "input_tokens": 88.4,
+          "output_tokens": 40.300000000000004,
+          "duration": 0.5,
+          "error": null
+        },
+        {
+          "step_id": "execute_1",
+          "step_type": "execute",
+          "input_tokens": 49.4,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "execute_2",
+          "step_type": "execute",
+          "input_tokens": 54.6,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "execute_3",
+          "step_type": "execute",
+          "input_tokens": 61.1,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "synthesis",
+          "step_type": "synthesize",
+          "input_tokens": 50.7,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "expected_output_here",
+      "actual": "mock response for: \n        task: using the api_caller, find the answ..."
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 7.939338684082031e-05,
+      "avg_step_latency": 1.587867736816406e-05,
+      "total_tokens": 377.0,
+      "num_steps": 5,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 8.797645568847656e-05,
+    "timestamp": "2026-08-12T22:26:24.214846"
+  },
+  {
+    "agent_type": "plan_execute",
+    "agent_config": {
+      "type": "plan_execute",
+      "max_plan_steps": 20,
+      "replan_threshold": 0.5,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "reason_000",
+    "task_category": "multi_hop_reasoning",
+    "task_difficulty": "medium",
+    "trace": {
+      "agent_type": "PlanExecute",
+      "task_id": "reason_000",
+      "final_answer": "Mock response for: \n        Task: Multi-step reasoning problem 0: [Co...",
+      "success": false,
+      "total_tokens": 356.2,
+      "total_time": 8.225440979003906e-05,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 5,
+      "steps": [
+        {
+          "step_id": "plan_creation",
+          "step_type": "plan",
+          "input_tokens": 84.5,
+          "output_tokens": 40.300000000000004,
+          "duration": 0.5,
+          "error": null
+        },
+        {
+          "step_id": "execute_1",
+          "step_type": "execute",
+          "input_tokens": 45.5,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "execute_2",
+          "step_type": "execute",
+          "input_tokens": 50.7,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "execute_3",
+          "step_type": "execute",
+          "input_tokens": 57.2,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "synthesis",
+          "step_type": "synthesize",
+          "input_tokens": 46.800000000000004,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "logical_conclusion",
+      "actual": "mock response for: \n        task: multi-step reasoning problem 0: [co..."
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 8.225440979003906e-05,
+      "avg_step_latency": 1.6450881958007812e-05,
+      "total_tokens": 356.2,
+      "num_steps": 5,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 9.1552734375e-05,
+    "timestamp": "2026-08-12T22:26:24.214995"
+  },
+  {
+    "agent_type": "plan_execute",
+    "agent_config": {
+      "type": "plan_execute",
+      "max_plan_steps": 20,
+      "replan_threshold": 0.5,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "reason_001",
+    "task_category": "multi_hop_reasoning",
+    "task_difficulty": "medium",
+    "trace": {
+      "agent_type": "PlanExecute",
+      "task_id": "reason_001",
+      "final_answer": "Mock response for: \n        Task: Multi-step reasoning problem 1: [Co...",
+      "success": false,
+      "total_tokens": 356.2,
+      "total_time": 6.29425048828125e-05,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 5,
+      "steps": [
+        {
+          "step_id": "plan_creation",
+          "step_type": "plan",
+          "input_tokens": 84.5,
+          "output_tokens": 40.300000000000004,
+          "duration": 0.5,
+          "error": null
+        },
+        {
+          "step_id": "execute_1",
+          "step_type": "execute",
+          "input_tokens": 45.5,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "execute_2",
+          "step_type": "execute",
+          "input_tokens": 50.7,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "execute_3",
+          "step_type": "execute",
+          "input_tokens": 57.2,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "synthesis",
+          "step_type": "synthesize",
+          "input_tokens": 46.800000000000004,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "logical_conclusion",
+      "actual": "mock response for: \n        task: multi-step reasoning problem 1: [co..."
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 6.29425048828125e-05,
+      "avg_step_latency": 1.25885009765625e-05,
+      "total_tokens": 356.2,
+      "num_steps": 5,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 6.937980651855469e-05,
+    "timestamp": "2026-08-12T22:26:24.215070"
+  },
+  {
+    "agent_type": "plan_execute",
+    "agent_config": {
+      "type": "plan_execute",
+      "max_plan_steps": 20,
+      "replan_threshold": 0.5,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "reason_002",
+    "task_category": "multi_hop_reasoning",
+    "task_difficulty": "medium",
+    "trace": {
+      "agent_type": "PlanExecute",
+      "task_id": "reason_002",
+      "final_answer": "Mock response for: \n        Task: Multi-step reasoning problem 2: [Co...",
+      "success": false,
+      "total_tokens": 356.2,
+      "total_time": 6.151199340820312e-05,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 5,
+      "steps": [
+        {
+          "step_id": "plan_creation",
+          "step_type": "plan",
+          "input_tokens": 84.5,
+          "output_tokens": 40.300000000000004,
+          "duration": 0.5,
+          "error": null
+        },
+        {
+          "step_id": "execute_1",
+          "step_type": "execute",
+          "input_tokens": 45.5,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "execute_2",
+          "step_type": "execute",
+          "input_tokens": 50.7,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "execute_3",
+          "step_type": "execute",
+          "input_tokens": 57.2,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "synthesis",
+          "step_type": "synthesize",
+          "input_tokens": 46.800000000000004,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "logical_conclusion",
+      "actual": "mock response for: \n        task: multi-step reasoning problem 2: [co..."
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 6.151199340820312e-05,
+      "avg_step_latency": 1.2302398681640625e-05,
+      "total_tokens": 356.2,
+      "num_steps": 5,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 6.866455078125e-05,
+    "timestamp": "2026-08-12T22:26:24.215143"
+  },
+  {
+    "agent_type": "plan_execute",
+    "agent_config": {
+      "type": "plan_execute",
+      "max_plan_steps": 20,
+      "replan_threshold": 0.5,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "reason_003",
+    "task_category": "multi_hop_reasoning",
+    "task_difficulty": "medium",
+    "trace": {
+      "agent_type": "PlanExecute",
+      "task_id": "reason_003",
+      "final_answer": "Mock response for: \n        Task: Multi-step reasoning problem 3: [Co...",
+      "success": false,
+      "total_tokens": 356.2,
+      "total_time": 6.008148193359375e-05,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 5,
+      "steps": [
+        {
+          "step_id": "plan_creation",
+          "step_type": "plan",
+          "input_tokens": 84.5,
+          "output_tokens": 40.300000000000004,
+          "duration": 0.5,
+          "error": null
+        },
+        {
+          "step_id": "execute_1",
+          "step_type": "execute",
+          "input_tokens": 45.5,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "execute_2",
+          "step_type": "execute",
+          "input_tokens": 50.7,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "execute_3",
+          "step_type": "execute",
+          "input_tokens": 57.2,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "synthesis",
+          "step_type": "synthesize",
+          "input_tokens": 46.800000000000004,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "logical_conclusion",
+      "actual": "mock response for: \n        task: multi-step reasoning problem 3: [co..."
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 6.008148193359375e-05,
+      "avg_step_latency": 1.201629638671875e-05,
+      "total_tokens": 356.2,
+      "num_steps": 5,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 6.723403930664062e-05,
+    "timestamp": "2026-08-12T22:26:24.215215"
+  },
+  {
+    "agent_type": "plan_execute",
+    "agent_config": {
+      "type": "plan_execute",
+      "max_plan_steps": 20,
+      "replan_threshold": 0.5,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "reason_004",
+    "task_category": "multi_hop_reasoning",
+    "task_difficulty": "medium",
+    "trace": {
+      "agent_type": "PlanExecute",
+      "task_id": "reason_004",
+      "final_answer": "Mock response for: \n        Task: Multi-step reasoning problem 4: [Co...",
+      "success": false,
+      "total_tokens": 356.2,
+      "total_time": 5.888938903808594e-05,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 5,
+      "steps": [
+        {
+          "step_id": "plan_creation",
+          "step_type": "plan",
+          "input_tokens": 84.5,
+          "output_tokens": 40.300000000000004,
+          "duration": 0.5,
+          "error": null
+        },
+        {
+          "step_id": "execute_1",
+          "step_type": "execute",
+          "input_tokens": 45.5,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "execute_2",
+          "step_type": "execute",
+          "input_tokens": 50.7,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "execute_3",
+          "step_type": "execute",
+          "input_tokens": 57.2,
+          "output_tokens": 6.5,
+          "duration": 0.2,
+          "error": null
+        },
+        {
+          "step_id": "synthesis",
+          "step_type": "synthesize",
+          "input_tokens": 46.800000000000004,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "logical_conclusion",
+      "actual": "mock response for: \n        task: multi-step reasoning problem 4: [co..."
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 5.888938903808594e-05,
+      "avg_step_latency": 1.1777877807617187e-05,
+      "total_tokens": 356.2,
+      "num_steps": 5,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 6.866455078125e-05,
+    "timestamp": "2026-08-12T22:26:24.215289"
+  },
+  {
+    "agent_type": "langgraph",
+    "agent_config": {
+      "type": "langgraph",
+      "max_steps": 15,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "tool_000",
+    "task_category": "tool_use",
+    "task_difficulty": "easy",
+    "trace": {
+      "agent_type": "LangGraph",
+      "task_id": "tool_000",
+      "final_answer": "",
+      "success": false,
+      "total_tokens": 812.4999999999999,
+      "total_time": 0.0003180503845214844,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 15,
+      "steps": [
+        {
+          "step_id": "analyze_1",
+          "step_type": "analyze",
+          "input_tokens": 53.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_2",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_3",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_4",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_5",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_6",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_7",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_8",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_9",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_10",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_11",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_12",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_13",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_14",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_15",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "expected_output_here",
+      "actual": ""
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 0.0003180503845214844,
+      "avg_step_latency": 2.120335896809896e-05,
+      "total_tokens": 812.4999999999999,
+      "num_steps": 15,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 0.0003554821014404297,
+    "timestamp": "2026-08-12T22:26:24.218041"
+  },
+  {
+    "agent_type": "langgraph",
+    "agent_config": {
+      "type": "langgraph",
+      "max_steps": 15,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "tool_001",
+    "task_category": "tool_use",
+    "task_difficulty": "easy",
+    "trace": {
+      "agent_type": "LangGraph",
+      "task_id": "tool_001",
+      "final_answer": "",
+      "success": false,
+      "total_tokens": 812.4999999999999,
+      "total_time": 0.00011181831359863281,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 15,
+      "steps": [
+        {
+          "step_id": "analyze_1",
+          "step_type": "analyze",
+          "input_tokens": 53.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_2",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_3",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_4",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_5",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_6",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_7",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_8",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_9",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_10",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_11",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_12",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_13",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_14",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_15",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "expected_output_here",
+      "actual": ""
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 0.00011181831359863281,
+      "avg_step_latency": 7.454554239908854e-06,
+      "total_tokens": 812.4999999999999,
+      "num_steps": 15,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 0.000125885009765625,
+    "timestamp": "2026-08-12T22:26:24.218190"
+  },
+  {
+    "agent_type": "langgraph",
+    "agent_config": {
+      "type": "langgraph",
+      "max_steps": 15,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "tool_002",
+    "task_category": "tool_use",
+    "task_difficulty": "easy",
+    "trace": {
+      "agent_type": "LangGraph",
+      "task_id": "tool_002",
+      "final_answer": "",
+      "success": false,
+      "total_tokens": 812.4999999999999,
+      "total_time": 0.0001659393310546875,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 15,
+      "steps": [
+        {
+          "step_id": "analyze_1",
+          "step_type": "analyze",
+          "input_tokens": 53.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_2",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_3",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_4",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_5",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_6",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_7",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_8",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_9",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_10",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_11",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_12",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_13",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_14",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_15",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "expected_output_here",
+      "actual": ""
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 0.0001659393310546875,
+      "avg_step_latency": 1.10626220703125e-05,
+      "total_tokens": 812.4999999999999,
+      "num_steps": 15,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 0.0001850128173828125,
+    "timestamp": "2026-08-12T22:26:24.218383"
+  },
+  {
+    "agent_type": "langgraph",
+    "agent_config": {
+      "type": "langgraph",
+      "max_steps": 15,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "tool_003",
+    "task_category": "tool_use",
+    "task_difficulty": "easy",
+    "trace": {
+      "agent_type": "LangGraph",
+      "task_id": "tool_003",
+      "final_answer": "",
+      "success": false,
+      "total_tokens": 812.4999999999999,
+      "total_time": 0.00011992454528808594,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 15,
+      "steps": [
+        {
+          "step_id": "analyze_1",
+          "step_type": "analyze",
+          "input_tokens": 53.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_2",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_3",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_4",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_5",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_6",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_7",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_8",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_9",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_10",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_11",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_12",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_13",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_14",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_15",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "expected_output_here",
+      "actual": ""
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 0.00011992454528808594,
+      "avg_step_latency": 7.994969685872395e-06,
+      "total_tokens": 812.4999999999999,
+      "num_steps": 15,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 0.0001308917999267578,
+    "timestamp": "2026-08-12T22:26:24.218527"
+  },
+  {
+    "agent_type": "langgraph",
+    "agent_config": {
+      "type": "langgraph",
+      "max_steps": 15,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "tool_004",
+    "task_category": "tool_use",
+    "task_difficulty": "easy",
+    "trace": {
+      "agent_type": "LangGraph",
+      "task_id": "tool_004",
+      "final_answer": "",
+      "success": false,
+      "total_tokens": 812.4999999999999,
+      "total_time": 0.00019121170043945312,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 15,
+      "steps": [
+        {
+          "step_id": "analyze_1",
+          "step_type": "analyze",
+          "input_tokens": 53.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_2",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_3",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_4",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_5",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_6",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_7",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_8",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_9",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_10",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_11",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_12",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_13",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_14",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_15",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "expected_output_here",
+      "actual": ""
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 0.00019121170043945312,
+      "avg_step_latency": 1.2747446695963542e-05,
+      "total_tokens": 812.4999999999999,
+      "num_steps": 15,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 0.00020551681518554688,
+    "timestamp": "2026-08-12T22:26:24.218738"
+  },
+  {
+    "agent_type": "langgraph",
+    "agent_config": {
+      "type": "langgraph",
+      "max_steps": 15,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "tool_005",
+    "task_category": "tool_use",
+    "task_difficulty": "easy",
+    "trace": {
+      "agent_type": "LangGraph",
+      "task_id": "tool_005",
+      "final_answer": "",
+      "success": false,
+      "total_tokens": 812.4999999999999,
+      "total_time": 0.0001437664031982422,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 15,
+      "steps": [
+        {
+          "step_id": "analyze_1",
+          "step_type": "analyze",
+          "input_tokens": 53.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_2",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_3",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_4",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_5",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_6",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_7",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_8",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_9",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_10",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_11",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_12",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_13",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_14",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_15",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "expected_output_here",
+      "actual": ""
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 0.0001437664031982422,
+      "avg_step_latency": 9.584426879882813e-06,
+      "total_tokens": 812.4999999999999,
+      "num_steps": 15,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 0.00015997886657714844,
+    "timestamp": "2026-08-12T22:26:24.218906"
+  },
+  {
+    "agent_type": "langgraph",
+    "agent_config": {
+      "type": "langgraph",
+      "max_steps": 15,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "tool_006",
+    "task_category": "tool_use",
+    "task_difficulty": "easy",
+    "trace": {
+      "agent_type": "LangGraph",
+      "task_id": "tool_006",
+      "final_answer": "",
+      "success": false,
+      "total_tokens": 812.4999999999999,
+      "total_time": 0.0001277923583984375,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 15,
+      "steps": [
+        {
+          "step_id": "analyze_1",
+          "step_type": "analyze",
+          "input_tokens": 53.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_2",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_3",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_4",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_5",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_6",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_7",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_8",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_9",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_10",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_11",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_12",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_13",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_14",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_15",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "expected_output_here",
+      "actual": ""
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 0.0001277923583984375,
+      "avg_step_latency": 8.519490559895834e-06,
+      "total_tokens": 812.4999999999999,
+      "num_steps": 15,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 0.0001518726348876953,
+    "timestamp": "2026-08-12T22:26:24.219067"
+  },
+  {
+    "agent_type": "langgraph",
+    "agent_config": {
+      "type": "langgraph",
+      "max_steps": 15,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "tool_007",
+    "task_category": "tool_use",
+    "task_difficulty": "easy",
+    "trace": {
+      "agent_type": "LangGraph",
+      "task_id": "tool_007",
+      "final_answer": "",
+      "success": false,
+      "total_tokens": 812.4999999999999,
+      "total_time": 0.0001251697540283203,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 15,
+      "steps": [
+        {
+          "step_id": "analyze_1",
+          "step_type": "analyze",
+          "input_tokens": 53.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_2",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_3",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_4",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_5",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_6",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_7",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_8",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_9",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_10",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_11",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_12",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_13",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_14",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_15",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "expected_output_here",
+      "actual": ""
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 0.0001251697540283203,
+      "avg_step_latency": 8.344650268554688e-06,
+      "total_tokens": 812.4999999999999,
+      "num_steps": 15,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 0.00013375282287597656,
+    "timestamp": "2026-08-12T22:26:24.219209"
+  },
+  {
+    "agent_type": "langgraph",
+    "agent_config": {
+      "type": "langgraph",
+      "max_steps": 15,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "tool_008",
+    "task_category": "tool_use",
+    "task_difficulty": "medium",
+    "trace": {
+      "agent_type": "LangGraph",
+      "task_id": "tool_008",
+      "final_answer": "",
+      "success": false,
+      "total_tokens": 812.4999999999999,
+      "total_time": 0.00011777877807617188,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 15,
+      "steps": [
+        {
+          "step_id": "analyze_1",
+          "step_type": "analyze",
+          "input_tokens": 53.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_2",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_3",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_4",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_5",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_6",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_7",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_8",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_9",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_10",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_11",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_12",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_13",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_14",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_15",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "expected_output_here",
+      "actual": ""
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 0.00011777877807617188,
+      "avg_step_latency": 7.851918538411458e-06,
+      "total_tokens": 812.4999999999999,
+      "num_steps": 15,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 0.00012826919555664062,
+    "timestamp": "2026-08-12T22:26:24.219343"
+  },
+  {
+    "agent_type": "langgraph",
+    "agent_config": {
+      "type": "langgraph",
+      "max_steps": 15,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "tool_009",
+    "task_category": "tool_use",
+    "task_difficulty": "medium",
+    "trace": {
+      "agent_type": "LangGraph",
+      "task_id": "tool_009",
+      "final_answer": "",
+      "success": false,
+      "total_tokens": 812.4999999999999,
+      "total_time": 0.00011157989501953125,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 15,
+      "steps": [
+        {
+          "step_id": "analyze_1",
+          "step_type": "analyze",
+          "input_tokens": 53.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_2",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_3",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_4",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_5",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_6",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_7",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_8",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_9",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_10",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_11",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_12",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_13",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_14",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_15",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "expected_output_here",
+      "actual": ""
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 0.00011157989501953125,
+      "avg_step_latency": 7.43865966796875e-06,
+      "total_tokens": 812.4999999999999,
+      "num_steps": 15,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 0.00012040138244628906,
+    "timestamp": "2026-08-12T22:26:24.219471"
+  },
+  {
+    "agent_type": "langgraph",
+    "agent_config": {
+      "type": "langgraph",
+      "max_steps": 15,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "tool_010",
+    "task_category": "tool_use",
+    "task_difficulty": "medium",
+    "trace": {
+      "agent_type": "LangGraph",
+      "task_id": "tool_010",
+      "final_answer": "",
+      "success": false,
+      "total_tokens": 812.4999999999999,
+      "total_time": 9.942054748535156e-05,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 15,
+      "steps": [
+        {
+          "step_id": "analyze_1",
+          "step_type": "analyze",
+          "input_tokens": 53.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_2",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_3",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_4",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_5",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_6",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_7",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_8",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_9",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_10",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_11",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_12",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_13",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_14",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_15",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "expected_output_here",
+      "actual": ""
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 9.942054748535156e-05,
+      "avg_step_latency": 6.628036499023438e-06,
+      "total_tokens": 812.4999999999999,
+      "num_steps": 15,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 0.0001068115234375,
+    "timestamp": "2026-08-12T22:26:24.219584"
+  },
+  {
+    "agent_type": "langgraph",
+    "agent_config": {
+      "type": "langgraph",
+      "max_steps": 15,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "tool_011",
+    "task_category": "tool_use",
+    "task_difficulty": "medium",
+    "trace": {
+      "agent_type": "LangGraph",
+      "task_id": "tool_011",
+      "final_answer": "",
+      "success": false,
+      "total_tokens": 812.4999999999999,
+      "total_time": 0.00010395050048828125,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 15,
+      "steps": [
+        {
+          "step_id": "analyze_1",
+          "step_type": "analyze",
+          "input_tokens": 53.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_2",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_3",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_4",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_5",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_6",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_7",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_8",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_9",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_10",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_11",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_12",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_13",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_14",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_15",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "expected_output_here",
+      "actual": ""
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 0.00010395050048828125,
+      "avg_step_latency": 6.930033365885417e-06,
+      "total_tokens": 812.4999999999999,
+      "num_steps": 15,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 0.00011110305786132812,
+    "timestamp": "2026-08-12T22:26:24.219700"
+  },
+  {
+    "agent_type": "langgraph",
+    "agent_config": {
+      "type": "langgraph",
+      "max_steps": 15,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "tool_012",
+    "task_category": "tool_use",
+    "task_difficulty": "medium",
+    "trace": {
+      "agent_type": "LangGraph",
+      "task_id": "tool_012",
+      "final_answer": "",
+      "success": false,
+      "total_tokens": 812.4999999999999,
+      "total_time": 0.00010585784912109375,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 15,
+      "steps": [
+        {
+          "step_id": "analyze_1",
+          "step_type": "analyze",
+          "input_tokens": 53.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_2",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_3",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_4",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_5",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_6",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_7",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_8",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_9",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_10",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_11",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_12",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_13",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_14",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_15",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "expected_output_here",
+      "actual": ""
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 0.00010585784912109375,
+      "avg_step_latency": 7.05718994140625e-06,
+      "total_tokens": 812.4999999999999,
+      "num_steps": 15,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 0.00011610984802246094,
+    "timestamp": "2026-08-12T22:26:24.219824"
+  },
+  {
+    "agent_type": "langgraph",
+    "agent_config": {
+      "type": "langgraph",
+      "max_steps": 15,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "tool_013",
+    "task_category": "tool_use",
+    "task_difficulty": "medium",
+    "trace": {
+      "agent_type": "LangGraph",
+      "task_id": "tool_013",
+      "final_answer": "",
+      "success": false,
+      "total_tokens": 812.4999999999999,
+      "total_time": 9.775161743164062e-05,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 15,
+      "steps": [
+        {
+          "step_id": "analyze_1",
+          "step_type": "analyze",
+          "input_tokens": 53.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_2",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_3",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_4",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_5",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_6",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_7",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_8",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_9",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_10",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_11",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_12",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_13",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_14",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_15",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "expected_output_here",
+      "actual": ""
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 9.775161743164062e-05,
+      "avg_step_latency": 6.516774495442708e-06,
+      "total_tokens": 812.4999999999999,
+      "num_steps": 15,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 0.0001087188720703125,
+    "timestamp": "2026-08-12T22:26:24.219940"
+  },
+  {
+    "agent_type": "langgraph",
+    "agent_config": {
+      "type": "langgraph",
+      "max_steps": 15,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "tool_014",
+    "task_category": "tool_use",
+    "task_difficulty": "medium",
+    "trace": {
+      "agent_type": "LangGraph",
+      "task_id": "tool_014",
+      "final_answer": "",
+      "success": false,
+      "total_tokens": 812.4999999999999,
+      "total_time": 0.0001270771026611328,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 15,
+      "steps": [
+        {
+          "step_id": "analyze_1",
+          "step_type": "analyze",
+          "input_tokens": 53.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_2",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_3",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_4",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_5",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_6",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_7",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_8",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_9",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_10",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_11",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_12",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_13",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_14",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_15",
+          "step_type": "plan",
+          "input_tokens": 40.300000000000004,
+          "output_tokens": 13.0,
+          "duration": 0.3,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "expected_output_here",
+      "actual": ""
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 0.0001270771026611328,
+      "avg_step_latency": 8.47180684407552e-06,
+      "total_tokens": 812.4999999999999,
+      "num_steps": 15,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 0.0001366138458251953,
+    "timestamp": "2026-08-12T22:26:24.220083"
+  },
+  {
+    "agent_type": "langgraph",
+    "agent_config": {
+      "type": "langgraph",
+      "max_steps": 15,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "reason_000",
+    "task_category": "multi_hop_reasoning",
+    "task_difficulty": "medium",
+    "trace": {
+      "agent_type": "LangGraph",
+      "task_id": "reason_000",
+      "final_answer": "",
+      "success": false,
+      "total_tokens": 716.2999999999998,
+      "total_time": 0.00010538101196289062,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 15,
+      "steps": [
+        {
+          "step_id": "analyze_1",
+          "step_type": "analyze",
+          "input_tokens": 49.4,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_2",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_3",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_4",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_5",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_6",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_7",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_8",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_9",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_10",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_11",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_12",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_13",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_14",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_15",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "logical_conclusion",
+      "actual": ""
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 0.00010538101196289062,
+      "avg_step_latency": 7.025400797526041e-06,
+      "total_tokens": 716.2999999999998,
+      "num_steps": 15,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 0.00011301040649414062,
+    "timestamp": "2026-08-12T22:26:24.220203"
+  },
+  {
+    "agent_type": "langgraph",
+    "agent_config": {
+      "type": "langgraph",
+      "max_steps": 15,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "reason_001",
+    "task_category": "multi_hop_reasoning",
+    "task_difficulty": "medium",
+    "trace": {
+      "agent_type": "LangGraph",
+      "task_id": "reason_001",
+      "final_answer": "",
+      "success": false,
+      "total_tokens": 716.2999999999998,
+      "total_time": 0.00010442733764648438,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 15,
+      "steps": [
+        {
+          "step_id": "analyze_1",
+          "step_type": "analyze",
+          "input_tokens": 49.4,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_2",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_3",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_4",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_5",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_6",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_7",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_8",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_9",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_10",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_11",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_12",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_13",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_14",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_15",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "logical_conclusion",
+      "actual": ""
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 0.00010442733764648438,
+      "avg_step_latency": 6.961822509765625e-06,
+      "total_tokens": 716.2999999999998,
+      "num_steps": 15,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 0.00011086463928222656,
+    "timestamp": "2026-08-12T22:26:24.220319"
+  },
+  {
+    "agent_type": "langgraph",
+    "agent_config": {
+      "type": "langgraph",
+      "max_steps": 15,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "reason_002",
+    "task_category": "multi_hop_reasoning",
+    "task_difficulty": "medium",
+    "trace": {
+      "agent_type": "LangGraph",
+      "task_id": "reason_002",
+      "final_answer": "",
+      "success": false,
+      "total_tokens": 716.2999999999998,
+      "total_time": 9.965896606445312e-05,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 15,
+      "steps": [
+        {
+          "step_id": "analyze_1",
+          "step_type": "analyze",
+          "input_tokens": 49.4,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_2",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_3",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_4",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_5",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_6",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_7",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_8",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_9",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_10",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_11",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_12",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_13",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_14",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_15",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "logical_conclusion",
+      "actual": ""
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 9.965896606445312e-05,
+      "avg_step_latency": 6.643931070963542e-06,
+      "total_tokens": 716.2999999999998,
+      "num_steps": 15,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 0.00010657310485839844,
+    "timestamp": "2026-08-12T22:26:24.220431"
+  },
+  {
+    "agent_type": "langgraph",
+    "agent_config": {
+      "type": "langgraph",
+      "max_steps": 15,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "reason_003",
+    "task_category": "multi_hop_reasoning",
+    "task_difficulty": "medium",
+    "trace": {
+      "agent_type": "LangGraph",
+      "task_id": "reason_003",
+      "final_answer": "",
+      "success": false,
+      "total_tokens": 716.2999999999998,
+      "total_time": 9.369850158691406e-05,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 15,
+      "steps": [
+        {
+          "step_id": "analyze_1",
+          "step_type": "analyze",
+          "input_tokens": 49.4,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_2",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_3",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_4",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_5",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_6",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_7",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_8",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_9",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_10",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_11",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_12",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_13",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_14",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_15",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "logical_conclusion",
+      "actual": ""
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 9.369850158691406e-05,
+      "avg_step_latency": 6.246566772460937e-06,
+      "total_tokens": 716.2999999999998,
+      "num_steps": 15,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 0.000102996826171875,
+    "timestamp": "2026-08-12T22:26:24.220538"
+  },
+  {
+    "agent_type": "langgraph",
+    "agent_config": {
+      "type": "langgraph",
+      "max_steps": 15,
+      "model": "gpt-4",
+      "temperature": 0.1
+    },
+    "task_id": "reason_004",
+    "task_category": "multi_hop_reasoning",
+    "task_difficulty": "medium",
+    "trace": {
+      "agent_type": "LangGraph",
+      "task_id": "reason_004",
+      "final_answer": "",
+      "success": false,
+      "total_tokens": 716.2999999999998,
+      "total_time": 9.5367431640625e-05,
+      "errors": [],
+      "reflection_used": false,
+      "num_steps": 15,
+      "steps": [
+        {
+          "step_id": "analyze_1",
+          "step_type": "analyze",
+          "input_tokens": 49.4,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_2",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_3",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_4",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_5",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_6",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_7",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_8",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_9",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_10",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_11",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_12",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_13",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_14",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        },
+        {
+          "step_id": "plan_15",
+          "step_type": "plan",
+          "input_tokens": 35.1,
+          "output_tokens": 11.700000000000001,
+          "duration": 0.3,
+          "error": null
+        }
+      ]
+    },
+    "score": {
+      "score": 0.0,
+      "method": "exact_match",
+      "match": false,
+      "expected": "logical_conclusion",
+      "actual": ""
+    },
+    "metrics": {
+      "success_rate": 0.0,
+      "token_efficiency": Infinity,
+      "tokens_per_step": Infinity,
+      "error_recovery_rate": 1.0,
+      "total_latency": 9.5367431640625e-05,
+      "avg_step_latency": 6.357828776041667e-06,
+      "total_tokens": 716.2999999999998,
+      "num_steps": 15,
+      "num_errors": 0,
+      "score": 0.0
+    },
+    "wall_time": 0.0001010894775390625,
+    "timestamp": "2026-08-12T22:26:24.220642"
+  }
+]

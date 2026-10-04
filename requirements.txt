@@ -1,0 +1,8 @@
+# requirements.txt
+langgraph==1.2.10
+numpy==2.2.6
+openai==2.53.0
+PyYAML==6.0.3
+python-dotenv==1.2.2
+pytest==9.1.1
+# Optional framework comparison adapters: pip install -r requirements-frameworks.txt

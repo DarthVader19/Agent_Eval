@@ -1,0 +1,33 @@
+name: full
+benchmark_version: v1.0
+model: gpt-4o
+development_model: gpt-4o-mini
+primary_model: gpt-4o
+default_model_role: primary
+temperature: 0.0
+max_output_tokens: 512
+agents: [react, plan_execute, langgraph, direct]
+frameworks: [langgraph, crewai, autogen]
+benchmarks: [custom, gaia_style]
+tools: [calculator, python, search, retrieve, read_file]
+split: [dev, test]
+repeats: 3
+parallelism: 1
+retries: 1
+budgets:
+  max_steps: 10
+  max_tokens: 6000
+  max_seconds: 120
+cache:
+  enabled: true
+spend_cap_usd: 100.0
+pricing_per_million_tokens:
+  gpt-4o-mini: [0.15, 0.60]
+  gpt-4o: [2.50, 10.00]
+judge:
+  model: gpt-4o-mini
+  temperature: 0.0
+  votes: 3
+reflection:
+  enabled: false
+  max_cycles: 2
